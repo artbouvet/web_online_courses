@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+  }
+
+body {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1em;
+  background-color: white;
+}
+
+a {
+    color: #242424;
+    text-decoration: none;
+  }
+
+
+header {
+  background-color: white;
+  font-weight: bold;
+  padding: 10px 30px;
+}
+
+section{
+    padding : 30px 30px;
+}
+
+.lien-icone {
+    margin-left: 10px;
+    width : 10%;
+    height: 10%;
+}
+  
+.lien-icone:hover {
+    opacity: 0.5;
+  }
+
+footer,
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap : 40px;
+}
+
+.menu_link{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.menu_link:hover{
+    background-color: #e8e5e2;
+}
+
+.portrait{
+    background: linear-gradient( #d4d0cd, white);
+    
+}
+
+.photo_presentation{
+    padding: 0px 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap : 50px;
+}
+
+.cours{
+    text-align: center;
+}
+
+.tarifs{
+    text-align: center;
+}
+
+.rdv{
+    text-align: center;
+}
